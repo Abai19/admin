@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #4fae47;
+}
+
+body {
+    background-color: #F4F5FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.w-100 {
+    width: 100%;
+}
+
+h1,
+.ant-typography {
+    margin-bottom: initial !important;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd) {
+    font-family: 'Poppins', sans-serif;
+    /*box-sizing: initial !important;*/
+}
+
+.ant-typography {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ant-card {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*:where(.css-dev-only-do-not-override-amq5gd).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-amq5gd).ant-menu-light>.ant-menu .ant-menu-item-selected {*/
+/*    background-color: #5570F1;*/
+/*    color: white;*/
+/*}*/
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-typography + h1.ant-typography, :where(.css-dev-only-do-not-override-amq5gd).ant-typography + h2.ant-typography, :where(.css-dev-only-do-not-override-amq5gd).ant-typography + h3.ant-typography, :where(.css-dev-only-do-not-override-amq5gd).ant-typography + h4.ant-typography, :where(.css-dev-only-do-not-override-amq5gd).ant-typography + h5.ant-typography {
+    margin-top: initial;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/*::-webkit-scrollbar-thumb {*/
+/*    background-color: var(--primary);*/
+/*    border-radius: 16px;*/
+/*}*/
+
+/*::-webkit-scrollbar {*/
+/*    width: 3px;*/
+/*    background-color: white;*/
+/*}*/

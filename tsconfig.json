@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        /*Разрешение на декораторы*/
+        "experimentalDecorators": true,
+        "extendedDiagnostics": true,
+        /* Bundler mode */
+        "noEmit": true,
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmitOnError": false,
+        "jsx": "react-jsx",
+        "outDir": "./dist/",
+        "baseUrl": "./",
+
+        "paths": {
+            "~/*": ["src/*"]
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "ts-node": {
+        "transpileOnly": true,
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    }
+}
